@@ -11,31 +11,6 @@
 @implementation QuizViewController
 
 
-- (id)init
-{
-    // Call the init method implemented by the superclass
-    self = [super init];
-    if(self) {
-        // Create two arrays and make the point to them
-        questions = [[NSMutableArray alloc] init];
-        answers = [[NSMutableArray alloc] init];
-        
-        // Add questions and answers to the arrays
-        [questions addObject:@"What is 7 + 3?"];
-        [answers addObject:@"10"];
-        
-        [questions addObject:@"Waht is the capital of Vermont?"];
-        [answers addObject:@"Montpelier"];
-        
-        [questions addObject:@"From that is cognac made?"];
-        [answers addObject:@"Grapes"];
-    }
-    
-    // Return the add ress of the new object
-    return self;
-    
-}
-
 - (IBAction)showQuestion:(id)sender
 {
     //Step to the next question
@@ -83,6 +58,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    questions = [[NSMutableArray alloc] init];
+    answers = [[NSMutableArray alloc] init];
+    
+    // Add questions and answers to the arrays
+    [questions addObject:@"What is 7 + 3?"];
+    [answers addObject:@"10"];
+    
+    [questions addObject:@"Waht is the capital of Vermont?"];
+    [answers addObject:@"Montpelier"];
+    
+    [questions addObject:@"From that is cognac made?"];
+    [answers addObject:@"Grapes"];
+    
+    
 }
 
 - (void)viewDidUnload

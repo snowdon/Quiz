@@ -15,6 +15,9 @@
 		1531A88E13DA469C00ECBA7A /* QuizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531A88D13DA469C00ECBA7A /* QuizAppDelegate.m */; };
 		1531A89113DA469C00ECBA7A /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531A89013DA469C00ECBA7A /* QuizViewController.m */; };
 		1531A89413DA469C00ECBA7A /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1531A89213DA469C00ECBA7A /* QuizViewController.xib */; };
+		1531A8A313DA7E8900ECBA7A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1531A8A213DA7E8900ECBA7A /* Icon.png */; };
+		1531A8A513DA7E9100ECBA7A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1531A8A413DA7E9100ECBA7A /* Icon@2x.png */; };
+		1531A8A713DA7FC000ECBA7A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1531A8A613DA7FC000ECBA7A /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		1531A88F13DA469C00ECBA7A /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
 		1531A89013DA469C00ECBA7A /* QuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 		1531A89313DA469C00ECBA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuizViewController.xib; sourceTree = "<group>"; };
+		1531A8A213DA7E8900ECBA7A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1531A8A413DA7E9100ECBA7A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1531A8A613DA7FC000ECBA7A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 		1531A86E13DA469B00ECBA7A = {
 			isa = PBXGroup;
 			children = (
+				1531A8A613DA7FC000ECBA7A /* Default.png */,
 				1531A88313DA469C00ECBA7A /* Quiz */,
 				1531A87C13DA469C00ECBA7A /* Frameworks */,
 				1531A87A13DA469C00ECBA7A /* Products */,
@@ -90,6 +97,8 @@
 		1531A88413DA469C00ECBA7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1531A8A213DA7E8900ECBA7A /* Icon.png */,
+				1531A8A413DA7E9100ECBA7A /* Icon@2x.png */,
 				1531A88513DA469C00ECBA7A /* Quiz-Info.plist */,
 				1531A88613DA469C00ECBA7A /* InfoPlist.strings */,
 				1531A88913DA469C00ECBA7A /* main.m */,
@@ -147,6 +156,9 @@
 			files = (
 				1531A88813DA469C00ECBA7A /* InfoPlist.strings in Resources */,
 				1531A89413DA469C00ECBA7A /* QuizViewController.xib in Resources */,
+				1531A8A313DA7E8900ECBA7A /* Icon.png in Resources */,
+				1531A8A513DA7E9100ECBA7A /* Icon@2x.png in Resources */,
+				1531A8A713DA7FC000ECBA7A /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
